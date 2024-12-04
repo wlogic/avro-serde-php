@@ -33,6 +33,7 @@ final class TypeMapper
             TypeName::FIXED => $this->simpleType(Schema::fixed()),
             TypeName::UUID => $this->simpleType(Schema::uuid()),
             TypeName::TIME_MILLIS => $this->simpleType(Schema::timeMillis()),
+            TypeName::TIMESTAMP_MILLIS => $this->simpleType(Schema::timestampMillis()),
         ];
     }
 
