@@ -31,6 +31,8 @@ final class TypeMapper
             TypeName::MAP => $this->simpleType(Schema::map()),
             TypeName::ENUM => $this->simpleType(Schema::enum()),
             TypeName::FIXED => $this->simpleType(Schema::fixed()),
+            TypeName::UUID => $this->simpleType(Schema::uuid()),
+            TypeName::TIME_MILLIS => $this->simpleType(Schema::timeMillis()),
         ];
     }
 
